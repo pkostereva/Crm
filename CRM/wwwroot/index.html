@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="google-signin-client_id" content="1094355278527-a3mf88r2b59g0aq54p9ncddde37hukdo.apps.googleusercontent.com">
+    <link rel="stylesheet" href="styles.css">
+    <title>CRM</title>
+</head>
+<body>
+    <div style="height:40px">
+        <div id="google-sign-in-btn" class="g-signin2" data-onsuccess="onSignIn"></div>
+        <h2 id="user-info" align="center">No authorized</h2>
+        <a id="google-sign-out-btn" href="#">Sign out</a>
+    </div>
+
+    <div class="content">
+        <div id="account-info"></div>
+        <span id='cwppButton'></span>
+    </div>
+
+
+
+    <!--<h1 class="header">
+        <span class="header--main">Здравствуйте,</span>
+        <span class="header--sub">коллеги!!111</span>
+    </h1>-->
+    <!--<img class="cat" src="img/hallo.gif" alt="альтернативный текст">-->
+    
+    <script src='https://www.paypalobjects.com/js/external/connect/api.js'></script>
+    <script>
+        paypal.use(['login'], function (login) {
+            login.render({
+                "appid": "Aegc8GxIifNEIZf2Y_cFxP_PwjoSSBXCsKq8DvZ8nhQhef3wvGP7Lz6SHQ3qb8_BU7RFoIPt77zqBoAu",
+                "authend": "sandbox",
+                "scopes": "openid",
+                "containerid": "cwppButton",
+                "responseType": "code",
+                "locale": "ru-ru",
+                "buttonType": "CWP",
+                "buttonShape": "pill",
+                "buttonSize": "lg",
+                "fullPage": "true",
+                "returnurl": "https://127.0.0.1:5100/process-action?operation=1&account=637&amount=500"
+            });
+        });
+    </script>
+
+
+    <script src="google-auth.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</body>
+</html>

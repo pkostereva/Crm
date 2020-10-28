@@ -1,0 +1,5 @@
+﻿{
+    "CrmApiUrl": "https://localhost:5100",
+    "TransactionStoreApiUrl": "https://localhost:44349",
+    "DBConnectionString": "Data Source=185.26.112.224;Initial Catalog=CrmDb;User ID=dev;Password=qwe!23;"
+}

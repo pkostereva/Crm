@@ -1,0 +1,7 @@
+{
+  "CrmApiUrl": "https://80.78.240.16:5101",
+  "TransactionStoreApiUrl": "https://80.78.240.16:44349",
+  "DBConnectionString": "Data Source=80.78.240.16;Initial Catalog=CrmDb;User ID=dev;Password=qwe!23;",
+  "ClientId": "AWxP3y79gxQuarvz0Gw1uvVBArhb_pf_epbJdgaeHhCPxhYSwg7W0VGHJfxE-sCvU-ivzOnhgCypim9a",
+  "Secret": "EEGrQomRPgAgEzuLfYZMg72wsHAehgDSVZNhamHyXpx_cg0p6QBeKjm6uXHlpmFTDC7gV7kw-6QOOSaX"
+}
